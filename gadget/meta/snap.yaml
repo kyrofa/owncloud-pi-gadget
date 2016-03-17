@@ -1,5 +1,5 @@
 name: owncloud-pi2
-version: 3.0owncloud1
+version: 3.0owncloud2
 summary: ownCloud Pi support package
 description: |
  Support files for booting the ownCloud Pi device.
@@ -38,5 +38,5 @@ gadget:
         - path: boot-assets/start_x.elf
         - path: boot-assets/overlays.tgz
   software:
-    preinstalled:
+    built-in:
       - owncloud.canonical
